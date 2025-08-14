@@ -111,9 +111,9 @@ while f == 1:
          times = times+1
      if times == 1000000:
          TotalProb = str(TotalProb)
-         print "The final Probability for switching is "+TotalProb+"!"
+         print(f"The final Probability for switching is {TotalProb}!")
          TotalProb2 = str(TotalProb2)
-         print "The final Probability for staying is "+TotalProb2+"!"
+         print(f"The final Probability for staying is {TotalProb2}!")
          f = 0
      if times == 500000:
          Switch = 1
